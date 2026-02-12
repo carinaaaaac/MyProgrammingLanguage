@@ -1,0 +1,6 @@
+begin_program
+integer f();
+begin_main
+x <- 1;
+end_main
+end_program

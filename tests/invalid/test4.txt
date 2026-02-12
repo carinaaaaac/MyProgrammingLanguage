@@ -1,0 +1,8 @@
+begin_program
+begin_class A {
+}
+end_class
+begin_main
+x <- 1;
+end_main
+end_program

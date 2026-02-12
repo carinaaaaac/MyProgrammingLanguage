@@ -1,0 +1,41 @@
+begin_program
+integer a;
+integer a;
+float b;
+integer c;
+text function(text s);
+text function(text s);
+text sir;
+integer f(integer x){
+    x <- x + 5;
+    return x;
+}
+begin_class Test {
+public integer x;
+private integer y;
+}
+end_class
+begin_class Test {
+public integer x;
+private integer y;
+}
+end_class
+begin_class MyClass{
+    public integer x;
+}
+end_class
+void f(integer a);
+MyClass m;
+begin_main
+
+a <- 5;
+initialize sir;
+sir <- function(a);
+initialize m;
+Print(m.y);
+initialize b;
+b <- 10.1;
+initialize c;
+c <- a + b;
+end_main
+end_program

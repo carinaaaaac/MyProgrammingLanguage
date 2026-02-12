@@ -1,0 +1,7 @@
+begin_program
+integer x;
+begin_main
+x <- (3 + 4) * 2 - 1;
+Print(x);
+end_main
+end_program

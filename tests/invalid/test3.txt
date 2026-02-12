@@ -1,0 +1,5 @@
+integer f(integer x);
+begin_main
+x <- f(5);
+end_main
+end_program

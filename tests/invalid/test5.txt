@@ -1,0 +1,10 @@
+begin_program
+begin_class Test {
+public integer x;
+private integer y;
+}
+end_class
+begin_main
+x <- 10;
+end_main
+end_program

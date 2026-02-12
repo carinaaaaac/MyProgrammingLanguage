@@ -1,0 +1,4 @@
+integer x;
+begin_main
+x <- 3;
+end_program

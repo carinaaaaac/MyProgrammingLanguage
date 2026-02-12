@@ -1,0 +1,32 @@
+begin_program
+integer a;
+integer i;
+begin_class Abd{
+public bool b;
+}
+end_class
+text abc;
+float function(float a, float b);
+bool c;
+begin_main
+initialize a;
+a <- 5;
+initialize b;
+b <- f(1.2,3.4);
+dinitialize c;
+c <- true or false and (not true);
+declare abc;
+abc <- "Ana are mere";
+if a + b < 5 then
+a <- 10
+endif;
+initialize i;
+for i from 1 to 10 do 
+Print(i);
+endfor;
+while i < 10 do
+i <- i + 1;
+endwhile;
+return 0;
+end_main
+end_program

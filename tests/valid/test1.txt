@@ -1,0 +1,9 @@
+begin_program
+integer x;
+begin_main
+x <- 3;
+if x < 5 then
+x <- x + 1;
+endif;
+end_main
+end_program

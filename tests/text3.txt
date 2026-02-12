@@ -1,0 +1,96 @@
+begin_program
+begin_class A {
+private integer x;
+private integer y;
+public void A() {
+        x <- 19;
+        y <- 90;
+    } 
+public integer g(integer z) {
+        return z + 100 + x;
+    }
+}
+end_class
+
+integer f(integer z) {                
+    integer x; 
+    integer b; 
+    x <- 5; 
+    b <- 10;
+    bool flag;
+
+    if flag == true and x + 5 < b then
+        return x + b ;  
+    endif;
+                     
+    return z * 10;
+}
+
+begin_class B{
+private integer b;
+private integer bb;
+protected void B() {
+
+        b <- 5;
+        bb <- 10;
+    }
+private integer g(integer z){
+        A a; 
+        integer x;
+        x <- 100; 
+        return x  + a.x + z;
+    }
+
+private integer f(integer z){
+      return 200 * z;
+    }
+}
+end_class
+
+
+text bfunc(bool b, text s){
+    if b == true then
+       return s; 
+    else return "bau";
+    endif;
+}
+
+float fx;
+text s;
+integer ix;
+bool b1;
+bool b2;
+B obb; 
+A oba; 
+
+begin_main
+    fx <- 65.0;
+    fx <- fx + 10.0 * fx - 65.0;
+    Print(fx);
+
+    s <- "test";
+    Print(s);
+    s <- "otherstr";
+    Print(s);
+
+    ix <- 10;
+    ix <- ix + (ix + f(ix*4)) * 2 ;
+
+
+    oba.x <- f(1000) ;
+    oba.y <- f(100) + oba.x;
+    b2 <- true;
+    b1 <- b2 or not b2;
+    Print(bfunc(b1, "s"));
+
+    Print(f(ix) + 5 > 5 + obb.b);
+    Print(ix+5 > ix+6);
+    Print((b1 or b2 and not b1) == false); 
+    Print(oba.x == oba.y);
+
+    Print(ix+5 > ix+6 or (b1 or b2 and (not b1) == false and f(ix) + 5 > 5 + obb.b) or oba.x == oba.y);
+    if ix+2 > ix + 5 and ix + 3 > f(45*3 + ix) - 10 then
+	    ix <- 100;
+    endif;
+end_main
+end_program

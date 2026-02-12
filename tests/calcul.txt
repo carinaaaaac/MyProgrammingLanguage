@@ -1,0 +1,27 @@
+begin_program
+integer x;
+integer a;
+bool y;
+bool z;
+bool t;
+begin_class Class{
+    public integer y;
+}
+end_class
+
+begin_main
+x <- (-5)*2;
+Print(x);
+t <- true;
+z <- false;
+Print(t);
+Print(z);
+y <- (t or z);
+Print(y);
+
+Class c;
+c.y <- 10;
+Print(c.y);
+end_main
+
+end_program

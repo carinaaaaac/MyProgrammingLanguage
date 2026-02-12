@@ -1,0 +1,10 @@
+begin_program
+integer x;
+begin_main
+x <- 0;
+while x < 3 do
+x <- x + 1;
+endwhile
+end_main
+end_program
+ 

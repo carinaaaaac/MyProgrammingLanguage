@@ -1,0 +1,12 @@
+Scope: global
+  var x : integer = -10
+  var a : integer = -
+  var y : bool = true
+  var z : bool = false
+  var t : bool = true
+  class Class
+  var c : Class = object
+
+  Scope: class Class (parent: global)
+    var y : integer = 10
+
